@@ -3,12 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="greetingBefore" class="com.smart.advice.GreetingBeforeAdvice" />
-    <bean id="greetingAfter" class="com.smart.advice.GreetingAfterAdvice" />
+    <bean id="greetingAround" class="com.smart.advice.GreetingInterceptor" />
+    <!--<bean id="greetingAfter" class="com.smart.advice.GreetingAfterAdvice" />-->
     <bean id="target" class="com.smart.advice.NaiveWaiter" />
     <bean id="waiter" class="org.springframework.aop.framework.ProxyFactoryBean"
     p:proxyInterfaces="com.smart.advice.Waiter"
-          p:interceptorNames="greetingBefore,greetingAfter"
+          p:interceptorNames="greetingAround"
           p:target-ref="target"
           />
     <!--p:proxyTargetClass="true"-->
