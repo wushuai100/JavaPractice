@@ -1,0 +1,2 @@
+普通字符串
+com.smart.test.PrintStreamTest@2f0e140b

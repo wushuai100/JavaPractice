@@ -6,12 +6,15 @@ import java.util.Objects;
  * Created by wushuai3 on 2016/7/9.
  */
 public class ObjectsTest {
-    static ObjectsTest obj;
+//    static ObjectsTest obj;
     public static void main(String[] args){
-        System.out.println(Objects.hashCode(obj));
-        System.out.println(Objects.toString(obj));
-//        System.out.println(Objects.requireNonNull(obj));
+        int a = MurmurHash.hash("222222111111");
+        int mod = Math.abs(a%100);
+        System.out.println(mod);
+
+
     }
+
 
 }
 
