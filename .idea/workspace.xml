@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c4aef5-2510-4551-a708-fd4d56ab3ce2" name="Default" comment="sss">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_9_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_spring_4_7.xml" />
+    <list default="true" id="40c4aef5-2510-4551-a708-fd4d56ab3ce2" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/smart/test/InsertContent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/smart/test/RandomAccessFileTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/smart/test/RedirectOut.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/smart/test/WriteToProcess.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/smart/jdbc/LoginFrame.class" afterPath="$PROJECT_DIR$/target/test-classes/com/smart/jdbc/LoginFrame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/smart/test/FoundMyPin.class" afterPath="$PROJECT_DIR$/target/test-classes/com/smart/test/FoundMyPin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringAop.iml" afterPath="$PROJECT_DIR$/SpringAop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/smart/advice/SpringAdviceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/smart/advice/SpringAdviceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/smart/test/Arith.java" afterPath="$PROJECT_DIR$/src/test/java/com/smart/test/Arith.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" />
     </list>
     <ignored path="SpringAop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1016,7 +1003,7 @@
       <workItem from="1467440577805" duration="35752000" />
       <workItem from="1474035780942" duration="515000" />
       <workItem from="1474079609419" duration="223000" />
-      <workItem from="1474292380326" duration="4864000" />
+      <workItem from="1474292380326" duration="4875000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1474079830279</created>
@@ -1025,7 +1012,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474079830279</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sss">
+      <created>1474299538152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474299538152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1061,7 +1055,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41354000" />
+    <option name="totallyTimeSpent" value="41365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
